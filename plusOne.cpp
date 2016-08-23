@@ -8,6 +8,7 @@ int main(){
 	int input;
 	cin>>input;
 	v.push_back(input);
+
 	while(input>-1)
 	{
 		cin>>input;
@@ -21,8 +22,6 @@ int main(){
 		cout<<v[i]<<" ";
 	}
 
-	int swch=0;
-	
 
 	for(unsigned int i =v.size()-1; i>=0; i--)
 	{
@@ -30,20 +29,16 @@ int main(){
 		if(v[i]>=0 && v[i]<=8)
 		{
 			v[i]=v[i]+1;
-			swch++;
 			break;
 		}
 		else if(v[i]==9)
 		{
-			cout<<" set to 0 = v[i]: "<<v[i];
 			v[i]=0;
-
-			//v.insert( v.begin(), 1);
 			continue;
 		}
 		
 	}
-	if(swch==0 || v.size()==1)
+	if(v.size()==1)
 	{
 		v.insert( v.begin(), 1);
 	}
@@ -53,7 +48,5 @@ int main(){
 	{
 		cout<<v.at(i)<<" ";
 	}
-
-
 	return 0;
 }
