@@ -1,4 +1,6 @@
-
+/*
+This program counts the repeated char and a string and prints the number of each char + char
+*/
 #include <iostream> 
 #include <string>
 using namespace std;
