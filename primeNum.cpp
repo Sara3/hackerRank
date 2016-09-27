@@ -1,3 +1,10 @@
+/*
+• Make a list of all the candidate numbers. • Mark out all the multiples of 2. 
+• Mark out all the multiples of 3. • Mark out all the multiples of 4. • Likewise,
+mark out all the multiples of all the integers lower than 1000. • All the numbers that remain are prime numbers.
+*/
+
+
 //---------------------------------------------------------
 // File--------prjct.cpp
 // Programmer--Sabera Daqiq
